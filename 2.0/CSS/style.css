@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#barra{
+    width: 100%;
+    height: 55px;
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid #d0d0d0;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+#main{
+    box-sizing: border-box;
+    position: relative;
+}
+.header{
+    width: 100%;
+    margin: auto;
+    height: 200px;
+}
+
+.photo{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    left: 150px;
+    top: 50px;
+}
+
+.photo img{
+    width: 100%;
+    height: 100%;
+}
+
+.username{
+    color: gray;
+    position: absolute;
+    top: 55px;
+    left: 400px;
+    font-size: 30px;
+
+}
+.bio{
+    height: 50px;
+    position: absolute;
+    top: 170px;
+    left: 350px;
+}
+.info{
+    width: 40%;
+    height: 50px;
+    margin-left: 35%;
+    position: relative;
+    top: -100px;
+}
+
+.buttons-box{
+    width: 95%;
+    height: 50px;
+    border-top: 1px solid rgb(201, 201, 201);
+    margin: auto;
+}
+
+.pictures{
+    width: 70%;
+    margin: auto;
+    box-sizing: border-box;
+}
+.pic{
+    width: 220px;
+    height: 220px;
+    background-color: rgb(148, 148, 148);
+    display: inline-block;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.buttons{
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+
+.publicações, .igtv, .salvos, .marcados{
+    display: inline-block;
+    padding-left: 25px;
+    padding-right: 25px;
+    position: relative;
+    top: 15px;
+}

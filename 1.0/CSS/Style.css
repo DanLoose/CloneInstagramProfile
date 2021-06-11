@@ -1,0 +1,67 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.menu{
+	height: 48px;
+	background-color: white; 
+	box-shadow: 1px 1px 1px #cccccc;
+}
+.logoInsta img {
+	width: 90px;
+	margin-left: 260px;
+	padding-top: 12px;
+}
+
+.searchBox{
+	margin-left: 590px;
+	margin-top: -42px;
+
+}
+.icons{
+	margin-top: -42px;
+	margin-left: 800px;
+
+}
+.icons a{
+	padding: 5px;
+
+}
+.username h2{
+	margin-top: 50px;
+	margin-left: 40%;
+	color: rgb(100,100,100);
+	font-weight: normal;
+}
+
+.Profile_informations{
+	margin-left: 38%;
+	color: rgb(100,100,100);
+	margin-top: 10px;
+}
+.Profile_informations td{
+	padding-right: 25px;
+}
+.Profile_informations p{
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+.imgPart{
+	width: 800px;
+	margin: 100px auto;
+}
+.publis{
+	margin: 20px;
+	height: 250px;
+	width: 250px;
+	background-color: gray;
+}
+
+.detalhes{
+	width: 800px;
+	height: 2px;
+	margin: -100px auto;
+	box-shadow: 1px;
+}
