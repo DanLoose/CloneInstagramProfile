@@ -15,6 +15,11 @@ header{background-color: rgb(148, 148, 148); color: #fff; overflow:hidden; posit
 .active{background-color: rgb(0, 105, 40);}
 .header-container input{padding: 5px 20px; display: inline;}
 
+/* FOOTER SETTINGS */
+.footer ul{list-style-type: none; color: white;}
+.footer a{text-decoration: none; color: inherit;}
+.footer li{float: left; color: white; padding: 0 20px;}
+
 
 /* OBJECT SETTINGS */
 .container{padding: 80px 120px;}
