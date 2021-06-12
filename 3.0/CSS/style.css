@@ -5,12 +5,16 @@
 }
 
 /* BAR-TOP SETTINGS */
-.bar-top{background-color: #333; color: #fff; overflow:hidden; position: sticky;top: 0; z-index: 1;}
-.bar-top > ul{list-style-type: none;}
-.bar-top li{float: left; padding: 20px 20px;}
-.bar-top li:hover:not(.active){background-color: gray;}
-.bar-top a{text-decoration: none; color: inherit;}
+
+header{background-color: rgb(148, 148, 148); color: #fff; overflow:hidden; position: sticky;top: 0; z-index: 1;}
+.header-container{width: 33.3333%; background-color: aquamarine;float: left;}
+.header-container ul{list-style-type: none;}
+.header-container li{float: right; padding: 15px 15px;}
+.header-container li:hover:not(.active){background-color: gray;}
+.header-container a{text-decoration: none; color: inherit;}
 .active{background-color: rgb(0, 105, 40);}
+.header-container input{padding: 5px 20px; display: inline;}
+
 
 /* OBJECT SETTINGS */
 .container{padding: 80px 120px;}
@@ -19,7 +23,6 @@
 .card h3, .card p{margin-bottom: 10px;}
 
 /* IMAGE SETTINGS */
-img{width: 100%; height: auto;}
 
 /* GRID SETTINGS  ================================================================== */ 
 
