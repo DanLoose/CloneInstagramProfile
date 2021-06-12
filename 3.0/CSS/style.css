@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BAR-TOP SETTINGS */
+.bar-top{background-color: #333; color: #fff; overflow:hidden; position: sticky;top: 0; z-index: 1;}
+.bar-top > ul{list-style-type: none;}
+.bar-top li{float: left; padding: 20px 20px;}
+.bar-top li:hover:not(.active){background-color: gray;}
+.bar-top a{text-decoration: none; color: inherit;}
+.active{background-color: rgb(0, 105, 40);}
+
+/* OBJECT SETTINGS */
+.container{padding: 80px 120px;}
+.footer{padding: 80px 120px; background-color: #333;}
+.card{box-shadow: 0px 0px 20px rgb(14, 14, 14);text-align: center;padding:10px 0 10px 0}
+.card h3, .card p{margin-bottom: 10px;}
+
+/* IMAGE SETTINGS */
+img{width: 100%; height: auto;}
+
+/* GRID SETTINGS  ================================================================== */ 
+
+/* For Mobile */
+[class*=".grid-"]{width: 100%;}
+
+/* For Desktop */
+@media only screen and (min-width: 600px) {
+    .grid-4{width: 33.3333%; float: left;padding: 16px;box-sizing: border-box;}
+}
+
+/* CLEAR SECTION */
+
+.container:before, .container:after, .row:before, .row:after, .bar-top:after,.bar-top:before{
+    display: table;
+    content: " ";
+}
+
+.container:before,.container:after, .row:before, .row:after, .bar-top:after,.bar-top:before{
+    clear: both;
+}
