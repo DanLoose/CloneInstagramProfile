@@ -26,6 +26,7 @@ header{background-color: rgb(148, 148, 148); color: #fff; overflow:hidden; posit
 .footer{padding: 80px 120px; background-color: #333;}
 .card{box-shadow: 0px 0px 20px rgb(14, 14, 14);text-align: center;padding:10px 0 10px 0}
 .card h3, .card p{margin-bottom: 10px;}
+.card img{width: 100%;}
 
 /* IMAGE SETTINGS */
 
