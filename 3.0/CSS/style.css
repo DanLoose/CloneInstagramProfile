@@ -27,6 +27,7 @@ header{background-color: rgb(148, 148, 148); color: #fff; overflow:hidden; posit
 .card{box-shadow: 0px 0px 20px rgb(14, 14, 14);text-align: center;padding:10px 0 10px 0}
 .card h3, .card p{margin-bottom: 10px;}
 .card img{width: 100%;}
+.profile img{border-radius: 50%; width: 100%;}
 
 /* IMAGE SETTINGS */
 
@@ -38,6 +39,7 @@ header{background-color: rgb(148, 148, 148); color: #fff; overflow:hidden; posit
 /* For Desktop */
 @media only screen and (min-width: 600px) {
     .grid-4{width: 33.3333%; float: left;padding: 16px;box-sizing: border-box;}
+    .grid-8{width: 66.6666%; float: left;padding: 16px;box-sizing: border-box;}
 }
 
 /* CLEAR SECTION */
